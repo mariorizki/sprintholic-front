@@ -5,7 +5,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   background-color: #000;
-  padding: 20px;
+  padding: 15px;
 `;
 
 const NavLi = styled.li`
