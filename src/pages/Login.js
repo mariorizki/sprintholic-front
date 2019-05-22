@@ -51,6 +51,7 @@ const InputSubmit = styled.button`
   transition: 0.5s;
   color: white;
   cursor: pointer;
+
   &:hover {
     background: hsla(145, 50%, 72%, 1);
   }

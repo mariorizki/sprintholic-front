@@ -8,9 +8,17 @@ const Nav = styled.nav`
   padding: 15px;
 `;
 
+const Logo = styled.li`
+  display: inline;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 10px 20px;
+  color: #ccc;
+`;
+
 const NavLi = styled.li`
   display: inline;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   margin: 10px 20px;
   color: #ccc;
@@ -19,7 +27,7 @@ const NavLi = styled.li`
 const Navigation = () => {
   return (
     <Nav>
-      <NavLi>Sprintholic</NavLi>
+      <Logo>Sprintholic</Logo>
       <NavLi>Logout</NavLi>
     </Nav>
   );
